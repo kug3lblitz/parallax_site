@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 750px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url(../Images/swirl_pattern.png) repeat;
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(../Images/school.png) repeat;
+    background-attachment: fixed;
+}
+#wall_3 {
+    background: url(../Images/skulls.png) repeat;
+    background-attachment: fixed;
+}
+
+
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 100px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#content_1 {position: relative;}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
